@@ -20,3 +20,13 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+  - name: "showcase"
+    label: "Showcase"
+    folder: "content/showcase"
+    created: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
