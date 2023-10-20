@@ -1,4 +1,8 @@
 {
+  "browser": {
+    "fs": false,
+    "os": false
+  },
   "name": "nextcms",
   "version": "1.0.0",
   "description": "",
@@ -13,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "date-fns": "^2.30.0",
     "gray-matter": "^4.0.3",
     "next": "^13.5.5",
     "react": "^18.2.0",
@@ -24,6 +29,9 @@
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
-    "frontmatter-markdown-loader": "^3.7.0"
+    "autoprefixer": "^10.4.16",
+    "frontmatter-markdown-loader": "^3.7.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
   }
 }
